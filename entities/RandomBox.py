@@ -2,7 +2,7 @@ from copy import copy
 
 from entities.EntityBase import EntityBase
 
-
+#Adding the comment 
 class RandomBox(EntityBase):
     def __init__(self, screen, spriteCollection, x, y, item, sound, dashboard, level, gravity=0):
         super(RandomBox, self).__init__(x, y, gravity)
