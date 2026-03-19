@@ -18,7 +18,7 @@ class RandomBox(EntityBase):
         self.vel = 1
         self.item = item
         self.level = level
-
+#Adding the comment 2
     def update(self, cam):
         if self.alive and not self.triggered:
             self.animation.update()
